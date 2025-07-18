@@ -4,11 +4,15 @@ Neste projeto foi realizada uma análise sobre os dados de acidentes de trânsit
 
 esse projeto foi desenvolvido através do jupyter notebook atraves do conda.
 
-Pra rodar esse projeto de iniciar a instancia com:
+Pra rodar esse projeto deve baixar os arquivos em algum diretorio seu
+Navegar ate a pasta Atividade final e iniciar a instancia com:
 activate acidentes_env
 
 e então rodar:
 jupyter notebook
+
+para rodar o streamlit basta rodar o seguinte comando com o ambiente ativo, dentro do diretorio App:
+streamlit run app.py
 
 ## O que foi realizado
 
@@ -23,6 +27,8 @@ jupyter notebook
 - Matriz de correlação entre os dados numéricos
 - Mapa de Geolocalização com informações interativas
 - Gráfico de disperção da correlação entre vitimas e condição climática
+- Gráfico pizza com indice de acidentes com e sem mortes
+- Streamlit com a tabela de dados na qual é possivel selecionar a tabela com base no ano.
 
 Com base nos dados analisados, podemos ver que em relação ao horario dos acidentes existem dois picos, as 7 da manhã e as 6 da tarde. Esse indice pode ter relação com os horários que as pessão estão indo e voltando de seus trabalhos, pois costumeiramente são conhecidos como horário de pico onde há um volume maior de carro (e extresse) nas ruas. 
 
